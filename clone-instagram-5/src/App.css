@@ -1,0 +1,63 @@
+body {
+  background: #fafafa;
+}
+
+#root {
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
+}
+
+.conteudoLateralDireita,
+.conteudoLateralEsquerda,
+.conteudoCentral {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.conteudoLateralEsquerda {
+  display: flex;
+  width:15vw;
+  background: rgb(224, 88, 88);
+  justify-content: flex-start;
+  
+}
+
+.conteudoLateralDireita {
+  background: rgb(54, 53, 53);
+  width:50vw;
+}
+
+.conteudoCentral {
+  width:65vw;
+  background:rgb(155, 150, 150);
+}
+
+.conteudoLateralEsquerda{
+  background-color: rgb(255, 255, 255);
+  margin: 40px;
+
+}
+
+.ConteudoLateralEsquerda .logo{
+  margin: 30px 0 0 0;
+}
+
+.conteudoLateralEsquerda ul li{
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  gap: 40px 20px;
+  padding-top: 20%;
+}
+
+.conteudoLateralEsquerda .profile{
+  display: flex;
+  align-items: flex-end;
+  justify-content: end;
+  padding-left: 10px;
+}
